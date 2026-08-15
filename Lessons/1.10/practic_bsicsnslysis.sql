@@ -122,16 +122,10 @@ SELECT
 FROM orders; 
 
 SELECT 
-   product,
-   SUM(amount) AS total_amount   
+   customer_id,
+   SUM(amount) AS total_spent   
 FROM orders
-GROUP BY product;
-
-ALTER TABLE orders
-DROP COLUMN customer_id;
-
-ALTER TABLE orders
-ADD COLUMN customer_id INT;
+GROUP BY customer_id;
 
 CREATE OR REPLACE TABLE orders(
     order_id INT PRIMARY KEY,
@@ -154,3 +148,28 @@ INSERT INTO orders (order_id, customer_id, product, amount, status) VALUES
 (109, 9, 'Tablet', 50000.00, 'Completed'),
 (110, 10, 'Watch', 5500.00, 'Pending');
 
+SELECT 
+   customer_id,
+   COUNT(*) AS total_orders
+FROM orders
+GROUP BY customer_id;  
+
+SELECT 
+   customer_id,
+   AVG(amount) AS average_order_amount
+FROM orders
+GROUP BY customer_id ;
+
+SELECT 
+   customer_id,
+   COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY customer_id
+HAVING COUNT(order_id) > 1;
+
+SELECT 
+   customer_id,
+   SUM(amount) AS total_amount
+FROM orders
+GROUP BY customer_id
+HAVING SUM(amount) > 5000;
