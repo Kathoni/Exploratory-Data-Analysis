@@ -173,3 +173,17 @@ SELECT
 FROM orders
 GROUP BY customer_id
 HAVING SUM(amount) > 5000;
+
+SELECT
+  orders.*,
+  customers.*
+FROM orders
+LEFT JOIN customers 
+ON orders.customer_id = customers.customer_id;
+
+SELECT
+  orders.*,
+  customers.*
+FROM orders
+INNER JOIN customers 
+ON orders.customer_id = customers.customer_id;
