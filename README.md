@@ -69,6 +69,24 @@ The project answers three main questions:
 2. Which skills have the highest median salaries?
 3. Which skills give the best combination of demand and pay?
 
+## Query 1: Most in-demand skills
+This query identifies the top skills requested by employers for remote Data Engineer roles.
+![Query 1 plot](images/query_1_plot.svg)
+
+This query tells us which skills appear most often in hiring requirements for remote Data Engineer jobs.
+
+## Query 2: Highest-paying skills
+This query focuses on the median salary for each skill, while also checking how common the skill is in the market.
+![Query 2 plot](images/query_2_plot.svg)
+
+This query helps identify which skills pay the most, even if they are not always the most common skills in the job market.
+
+## Query 3: Best overall skills balance
+This query combines demand and pay to rank the most valuable skills for a Data Engineer to learn.
+![Query 3 plot](images/query_3_plot.svg)
+
+This final query ranks skills by a practical balance of demand and compensation, which is often the most useful view for career planning.
+
 ## Example findings
 The SQL analysis showed that high-value and highly sought-after skills include:
 
