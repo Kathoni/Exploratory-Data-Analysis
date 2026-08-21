@@ -51,7 +51,7 @@ It is a beginner-friendly project, but it introduces the kind of analytical thin
 ## Project workflow
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Warehouse-style dataset] --> B[DuckDB SQL engine]
     B --> C[Join fact and dimension tables]
     C --> D[Filter Data Engineer jobs]
