@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Query 3: Optimal skills balance</text>
+  <g>
+    <circle cx="160" cy="330" r="18" fill="#f59e0b"/>
+    <circle cx="260" cy="260" r="18" fill="#fbbf24"/>
+    <circle cx="360" cy="280" r="18" fill="#fcd34d"/>
+    <circle cx="460" cy="310" r="18" fill="#fbbf24"/>
+    <circle cx="560" cy="240" r="18" fill="#f59e0b"/>
+    <circle cx="660" cy="220" r="18" fill="#f97316"/>
+    <circle cx="760" cy="180" r="18" fill="#ea580c"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#374151">
+    <text x="134" y="370">Terraform</text>
+    <text x="245" y="300">Python</text>
+    <text x="345" y="320">AWS</text>
+    <text x="440" y="350">SQL</text>
+    <text x="540" y="280">Airflow</text>
+    <text x="645" y="260">Spark</text>
+    <text x="730" y="220">Snowflake</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#4b5563">
+    <text x="120" y="120">Optimal Score</text>
+    <text x="660" y="110">High value skills</text>
+  </g>
+  <path d="M120 420 Q260 330 360 300 Q500 260 660 180 L760 120" fill="none" stroke="#fb923c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="430" x2="780" y2="430" stroke="#6b7280" stroke-width="2"/>
+  <line x1="120" y1="120" x2="120" y2="430" stroke="#6b7280" stroke-width="2"/>
+</svg>

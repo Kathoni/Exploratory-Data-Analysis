@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Query 1: Top in-demand Data Engineer skills</text>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#374151">
+    <text x="90" y="70">SQL</text>
+    <text x="90" y="110">Python</text>
+    <text x="90" y="150">AWS</text>
+    <text x="90" y="190">Azure</text>
+    <text x="90" y="230">Spark</text>
+    <text x="90" y="270">Airflow</text>
+    <text x="90" y="310">Snowflake</text>
+    <text x="90" y="350">Databricks</text>
+    <text x="90" y="390">Kubernetes</text>
+    <text x="90" y="430">Terraform</text>
+  </g>
+  <g>
+    <rect x="170" y="52" width="600" height="18" rx="5" fill="#60a5fa"/>
+    <rect x="170" y="92" width="560" height="18" rx="5" fill="#3b82f6"/>
+    <rect x="170" y="132" width="430" height="18" rx="5" fill="#2563eb"/>
+    <rect x="170" y="172" width="390" height="18" rx="5" fill="#1d4ed8"/>
+    <rect x="170" y="212" width="360" height="18" rx="5" fill="#1e40af"/>
+    <rect x="170" y="252" width="300" height="18" rx="5" fill="#7c3aed"/>
+    <rect x="170" y="292" width="260" height="18" rx="5" fill="#8b5cf6"/>
+    <rect x="170" y="332" width="240" height="18" rx="5" fill="#a78bfa"/>
+    <rect x="170" y="372" width="200" height="18" rx="5" fill="#c084fc"/>
+    <rect x="170" y="412" width="180" height="18" rx="5" fill="#e879f9"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#4b5563">
+    <text x="780" y="64">29,221</text>
+    <text x="740" y="104">28,776</text>
+    <text x="610" y="144">17,823</text>
+    <text x="570" y="184">14,143</text>
+    <text x="540" y="224">12,799</text>
+    <text x="480" y="264">9,996</text>
+    <text x="435" y="304">8,639</text>
+    <text x="415" y="344">8,183</text>
+    <text x="380" y="384">7,267</text>
+    <text x="360" y="424">6,446</text>
+  </g>
+  <line x1="170" y1="450" x2="770" y2="450" stroke="#6b7280" stroke-width="2"/>
+  <line x1="170" y1="50" x2="170" y2="450" stroke="#6b7280" stroke-width="2"/>
+</svg>

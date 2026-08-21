@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Query 2: Highest-paying skills</text>
+  <g>
+    <rect x="190" y="120" width="44" height="250" rx="6" fill="#10b981"/>
+    <rect x="260" y="150" width="44" height="220" rx="6" fill="#34d399"/>
+    <rect x="330" y="172" width="44" height="198" rx="6" fill="#6ee7b7"/>
+    <rect x="400" y="195" width="44" height="175" rx="6" fill="#34d399"/>
+    <rect x="470" y="210" width="44" height="160" rx="6" fill="#10b981"/>
+    <rect x="540" y="225" width="44" height="145" rx="6" fill="#059669"/>
+    <rect x="610" y="240" width="44" height="130" rx="6" fill="#047857"/>
+    <rect x="680" y="260" width="44" height="110" rx="6" fill="#065f46"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#374151">
+    <text x="196" y="390">Rust</text>
+    <text x="263" y="390">Golang</text>
+    <text x="333" y="390">Terraform</text>
+    <text x="400" y="390">Spring</text>
+    <text x="470" y="390">Neo4j</text>
+    <text x="540" y="390">GraphQL</text>
+    <text x="610" y="390">Kubernetes</text>
+    <text x="680" y="390">Airflow</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#4b5563">
+    <text x="201" y="115">$210k</text>
+    <text x="270" y="145">$184k</text>
+    <text x="341" y="167">$184k</text>
+    <text x="410" y="190">$175k</text>
+    <text x="481" y="205">$170k</text>
+    <text x="551" y="220">$168k</text>
+    <text x="621" y="235">$150k</text>
+    <text x="691" y="255">$150k</text>
+  </g>
+  <line x1="180" y1="430" x2="740" y2="430" stroke="#6b7280" stroke-width="2"/>
+  <line x1="180" y1="90" x2="180" y2="430" stroke="#6b7280" stroke-width="2"/>
+</svg>
