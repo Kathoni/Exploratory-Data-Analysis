@@ -1,9 +1,9 @@
 # Data Engineering Job Market Analysis
 
 ## Project overview
-This is my first data engineering project, and it focuses on analyzing a Data Engineering job market dataset using SQL in DuckDB. The main purpose of the project is not to perform business intelligence work in the traditional analyst sense, but to build a strong foundation in warehouse-style data modeling, SQL querying, and insight generation from structured data.
+This is my first end to end data engineering project, and it focuses on analyzing a Data Engineering job market dataset using SQL in DuckDB. The main purpose of the project is not to perform business intelligence work in the traditional analyst sense, but to build a strong foundation in warehouse-style data modeling, SQL querying, and insight generation from structured data.
 
-I worked with a dataset of job postings and related dimension tables, then used SQL to answer practical questions such as:
+I worked with a dawarehouse of job postings and related dimension tables, then used SQL to answer practical questions such as:
 
 - Which skills are most in demand for Data Engineers?
 - Which skills command the highest salaries?
