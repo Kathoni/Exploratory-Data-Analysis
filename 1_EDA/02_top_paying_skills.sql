@@ -26,8 +26,18 @@ ORDER BY
     median_salary DESC
 LIMIT 25;
 
--- OUTPUT
 /*
+INSIGHTS:
+- The highest-paying skills for data engineers are Rust, Golang, Terraform, Spring, and Neo4j.
+- Rust leads the pack with a median salary of $210,000, but it is relatively rare with only 232 job postings.
+- Golang and Terraform follow with median salaries of $184,000, but Golang is less common with 912 postings compared to Terraform's 3,248 postings.
+- Skills like Kubernetes and Airflow are more common, with 4,202 and 9,996 postings respectively, but their median salaries are lower at $150,500 and $150,000.
+Key takeaways:
+- Rust and Golang are high-paying but less common skills, indicating niche expertise.
+- Terraform is a high-paying skill with moderate demand, making it a valuable skill for data engineers
+- More common skills like Kubernetes and Airflow are essential for many data engineering roles, but they offer lower median salaries.
+
+OUTPUT:
 ┌────────────┬───────────────┬─────────────┐
 │   skills   │ median_salary │ skill_count │
 │  varchar   │    double     │    int64    │
