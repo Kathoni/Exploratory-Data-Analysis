@@ -27,9 +27,36 @@ HAVING
 ORDER BY
     optimal_score DESC
 LIMIT 25;
--- output
 
 /*
+INSIGHTS:
+Top Skills by Optimal Score:
+- Terraform leads the list with a $184K median salary and 193 postings, resulting in the highest overall "optimal score".
+- Python and SQL dominate demand (over 1100 postings each), with strong median salaries of $135K and $130K, respectively.
+- AWS (783 postings, $137K median), Spark (503 postings, $140K median), and Airflow (386 postings, $150K median) are all highly sought-after cloud and big data technologies.
+- Kafka offers high compensation ($145K median) and solid demand (292 postings).
+- Tools like Snowflake, Azure, and Databricks each have 250–475 postings and median salaries between $128–$137K.
+
+DevOps & Engineering Tools:
+- Airflow ($150K), Kubernetes ($150.5K), and Docker ($135K) stand out for their mix of demand and top median salaries.
+- Git ($140K/208 postings) and Github ($135K/127 postings) have broad utility and competitive compensation.
+
+Noteworthy Languages:
+- Java (303 postings, $135K median) and Scala (247 postings, $137K median) remain strong choices for well-paid data engineering roles.
+- Go ($140K/113 postings) is another programming language with excellent compensation.
+
+Databases & Cloud:
+- Redshift ($130K/274 postings), GCP ($136K/196 postings), Hadoop ($135K/198 postings), NoSQL ($134.4K/193 postings), and MongoDB ($135.8K/136 postings) add to a well-rounded data engineering skill set.
+- R, Pyspark, and BigQuery each deliver competitive salaries and meet the threshold for demand.
+
+Summary:
+Skills that consistently appear near the top balance a strong combination of market demand (job security) 
+and financial benefit. Python, SQL, AWS, Spark, Airflow, and Terraform are particularly strategic for both 
+immediate opportunities and longer-term career growth in data engineering.
+
+
+
+OUTPUT:
 ┌────────────┬───────────────┬──────────────┬─────────────────┬───────────────┐
 │   skills   │ median_salary │ demand_count │ ln_demand_count │ optimal_score │
 │  varchar   │    double     │    int64     │     double      │    double     │
